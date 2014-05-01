@@ -1,0 +1,112 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+#wrapper {
+	width: 900px;
+	min-height: 100px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+/*
+===========HEADER==========
+*/
+header>h1 {
+	font-family: Rockwell, Verdana, serif;
+	font-size: 50px;
+
+}
+#menu {
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+	color: #ffffff;
+}
+#menu li {
+	display: inline-block;
+	padding: 10px 15px;
+}
+#menu a {
+	display: inline-block;
+	border-right: 1px solid #f0f0f0;
+}
+#menu a:last-child {
+	border-right: 0;
+}
+a:link, a:visited, a:hover, a:active {
+	color: white;
+	text-decoration: none;
+}
+/*
+============MAIN=============
+*/
+#main {
+	box-sizing: border-box;
+	padding: 5px 0;
+}
+/**Primary**/
+#primary {
+	box-sizing: border-box;
+	float: left;
+	width: 640px;
+	padding: 10px;
+	border: 1px solid black;
+}
+#picWrapper {
+	position: relative;
+	float: right;	
+}
+#pic {
+	width: 100px;
+}
+#picCaption {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+/**Secondary**/
+#secondary {
+	box-sizing: border-box;
+	float: right;
+	width: 250px;
+	padding: 10px;
+	border: 1px solid black;
+}
+#listWithStyle {
+	list-style-type: none;
+	font-family: serif;
+}
+#listWithStyle li:first-child {
+	font-family: cursive;
+}
+#listWithStyle li:last-child {
+	font-family: cursive;
+}
+/**ClearFix**/
+#clearFix {
+	visibility: hidden;
+	clear: both;
+}
+/*
+============FOOTER==============
+*/
+footer {
+	clear: both;
+	background-color: #e0e0e0;
+	padding: 5px 0;
+}
+#contactList {
+	width: 100px;
+	margin: 0 auto;
+}
+#contactList img {
+	width: 40px;
+	display: inline-block;
+	margin: 2px;
+}
+footer h5 {
+	text-align: center;
+	margin: 0;
+}

@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+#wrapper {
+	width: 900px;
+	min-height: 100px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+/*
+===========HEADER==========
+*/
+header>h1 {
+	font-family: Rockwell, Verdana, serif;
+	font-size: 50px;
+
+}
+#menu {
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+	color: #ffffff;
+}
+#menu li {
+	display: inline-block;
+	padding: 10px 15px;
+}
+#menu a {
+	display: inline-block;
+	border-right: 1px solid #f0f0f0;
+}
+#menu a:last-child {
+	border-right: 0;
+}
+a:link, a:visited, a:hover, a:active {
+	color: white;
+	text-decoration: none;
+}
+/*
+============MAIN=============
+*/
+#main {
+	box-sizing: border-box;
+	padding: 5px 0;
+}
+/**Primary**/
+#primary {
+	box-sizing: border-box;
+	float: left;
+	width: 640px;
+}
+.post {
+	padding: 10px;
+	border: 1px solid black;
+	margin-bottom: 10px;
+}
+.logo {
+	float: left;
+	width: 100px;
+}
+.website_name {
+	font-weight: bold;
+	font-size: 27px;
+	margin: 0;
+}
+.question {
+	font-style: italic;
+	font-weight: bold;
+	margin: 0;
+}
+.answer {
+	margin: 0 0 10px 0;
+}
+/**Secondary**/
+#secondary {
+	box-sizing: border-box;
+	float: right;
+	width: 250px;
+	padding: 10px;
+	border: 1px solid black;
+}
+#secondary>p {
+	text-decoration: underline;
+	font-weight: bold;
+}
+#secondary>a:link, #secondary>a:visited {
+	color: black;
+	text-decoration: none;
+}
+#secondary>a:hover {
+	background-color: grey;
+}
+/**ClearFix**/
+#clearFix {
+	visibility: hidden;
+	clear: both;
+}
+/*
+============FOOTER==============
+*/
+footer {
+	clear: both;
+	background-color: #e0e0e0;
+	padding: 5px 0;
+	text-align: center;
+}

@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	background-image: url('../images/bamboo.jpg');
+}
+#wrapper {
+	width: 900px;
+	min-height: 100px;
+	margin: 0 auto; 
+	padding: 20px;
+	border: 1px solid black;
+	background-color: white;
+	font-family: Arial, Verdana, sans-serif;
+}
+#inlineHeader {
+	font-size: 35px;
+	font-weight: bold;
+	font-family: cursive;
+}
+#profilePic {
+	float: right;
+	margin-left: 20px;
+}
+#profilePic_img {
+	display: block;
+	width: 300px;
+	margin: 10px;
+}
+h5 {
+	margin: 10px;
+}
+h6 {
+	text-align: center;
+}
+hr {
+	margin-top: 100px;
+}
+#contactHeader {
+	text-align: center;
+}
+#contactList {
+	width: 100px;
+	margin: 0 auto;
+}
+#contactList>li {
+	display: inline-block;
+}
+.contactIcon {
+	width: 40px;
+}

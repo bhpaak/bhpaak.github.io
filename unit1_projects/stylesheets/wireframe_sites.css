@@ -1,0 +1,44 @@
+body {
+	font-family: Helvetica;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+}
+h1 {
+	text-align: center;
+	background-color: #FF6C7F;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+h2 {
+	color: black;
+	text-align: center;
+}
+h3 {
+	color: black;
+	text-align: center;
+	margin-bottom: 0;
+}
+#codeacademy, #apple, #mangastream {
+	width: 500px;
+ 	float: left;
+ 	border: 1px dashed black;
+ 	padding: 5px;
+}
+.separator {
+	visibility: hidden;
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+.content {
+	float: right;
+	width: 450px;
+	color: black;
+	padding: 10px;
+}
