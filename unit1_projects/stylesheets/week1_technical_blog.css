@@ -11,13 +11,15 @@ body {
 /*
 =========HEADER========
 */
-h1, h3 {
+h1 {
 	margin: 0;
 	padding: 10px;
 	background-color: #6C037F;
+	font-family: "Lucida Sans Unicode";
+	font-size: 35px;
 }
 #author {
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: normal;
 }
 #menu {
@@ -70,4 +72,14 @@ a:last-child {
 }
 .post_summary {
 	margin: 10px 0; 
+}
+/*
+===========FOOTER=============
+*/
+footer {
+	text-align: center;
+	background-color: #6C037F;
+	padding: 10px 0;
+	margin-top: 30px;
+	font-size: 12px;
 }

@@ -16,7 +16,6 @@ body {
 header>h1 {
 	font-family: Rockwell, Verdana, serif;
 	font-size: 50px;
-
 }
 #menu {
 	margin: 0;
@@ -103,7 +102,9 @@ a:link, a:visited, a:hover, a:active {
 */
 footer {
 	clear: both;
-	background-color: #e0e0e0;
-	padding: 5px 0;
+	background-color: black;
+	color: white;
+	padding: 15px 0;
+	margin-bottom: 30px;
 	text-align: center;
 }
